@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Solution41 <-- FileManager
+Solution41 <-- ListSorting
+
+class Solution41 {
+    generateOutput()
+}
+
+enum FileManager {
+    readFile()
+}
+
+enum ListSorting {
+    sortList()
+}
+
+@enduml
