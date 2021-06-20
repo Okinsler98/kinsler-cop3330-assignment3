@@ -10,6 +10,7 @@ class Solution41 {
 
 enum FileManager {
     readFile()
+    outputString()
 }
 
 enum ListSorting {
