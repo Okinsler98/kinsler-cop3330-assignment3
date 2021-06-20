@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Solution43 <-- FileManager
+
+
+class Solution43 {
+    userInput()
+    inputTest()
+}
+
+enum FileManager {
+    website
+    siteName
+    createHtml()
+    createJavaFile()
+    createCssFile()
+
+}
+
+@enduml
