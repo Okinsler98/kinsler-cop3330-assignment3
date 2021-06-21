@@ -22,17 +22,17 @@ public class WordFinder {
             changeWord(remove, replace, arrayIn);
         }
         if (arrayIn.contains(remove + "s")){
-            arrayIn.set(arrayIn.indexOf(remove + "s"), replace);
+            arrayIn.set(arrayIn.indexOf(remove + "s"), replace + "s");
             changeWord(remove, replace, arrayIn);
         }
 
         if (arrayIn.contains("\"" + remove  + "\"")){
-            arrayIn.set(arrayIn.indexOf("\"" + remove  + "\""), replace);
+            arrayIn.set(arrayIn.indexOf("\"" + remove  + "\""), "\"" + replace  + "\"");
             changeWord(remove, replace, arrayIn);
         }
 
         if (arrayIn.contains("\"" + remove + "s" + "\"")){
-            arrayIn.set(arrayIn.indexOf("\"" + remove + "s" + "\""), replace);
+            arrayIn.set(arrayIn.indexOf("\"" + remove + "s" + "\""), "\"" + replace + "s" + "\"");
             changeWord(remove, replace, arrayIn);
         }
     }
