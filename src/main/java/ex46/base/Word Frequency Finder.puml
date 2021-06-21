@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Solution46 <-- FileManager
+Solution46 <-- CountWords
+
+
+class Solution46 {
+    generateOutput()
+}
+
+enum FileManager {
+    inputFile()
+}
+
+enum CountWords {
+    findUniqueWords()
+    countUniqueWords()
+}
+
+@enduml
