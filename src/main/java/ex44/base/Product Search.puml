@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Solution44 <-- JsonManager
+
+
+class Solution44 {
+    userInput()
+}
+
+enum JsonManager {
+    JsonToGson
+    jsonSeperator()
+    searchJson()
+}
+
+@enduml
